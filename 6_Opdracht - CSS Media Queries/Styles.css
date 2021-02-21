@@ -1,0 +1,60 @@
+
+
+.box {
+    border: 4px outset burlywood;
+    margin: 25px;
+    padding: 10px;
+ 
+}
+
+.navigation-links li {
+    display: inline ;
+    margin: 10px;
+}
+
+
+.centre {
+    margin: 0 auto;
+    width: 700px;
+}
+
+body { 
+    color: #445a67;
+    background-color: #f6f7fb;
+    font-family: 'Shippori Mincho', serif;
+
+}
+
+
+
+nav {font-size:smaller;}
+
+/*mediaquery*/
+
+@media (min-width: 1024px) {
+body {
+    color: royalblue;
+    font-size: smaller;
+    line-height: 1.6em;}
+}
+
+
+
+@media (max-width: 320px) {
+   h1 {
+        font-size: 13px;  
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    .navigation-links li {
+        display: list-item;
+        list-style-type: none; 
+                margin: 5px;
+    }
+
+   }
+
+
